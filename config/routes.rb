@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "driving_range", to: "driving_range#home", as: :driving_range_home
   root "pages#index"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
