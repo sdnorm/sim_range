@@ -47,7 +47,12 @@ const DrivingRange = () => {
     }
   }, []);
 
-  return <canvas ref={canvasRef} style={{width: '100%', height: '600px'}} />;
+  return (
+    <div>
+      <p>Driving Range Component</p>
+      <canvas ref={canvasRef} style={{width: '100%', height: '600px'}} />
+    </div>
+  );
 };
 
 export default DrivingRange;

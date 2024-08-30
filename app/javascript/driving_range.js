@@ -7,5 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (container) {
     const root = createRoot(container);
     root.render(<DrivingRange />);
+  } else {
+    console.error('Could not find #driving-range container');
   }
 });
