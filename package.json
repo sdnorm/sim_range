@@ -6,12 +6,16 @@
     "build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify"
   },
   "dependencies": {
+    "@babylonjs/core": "latest",
+    "@babylonjs/loaders": "latest",
     "@hotwired/stimulus": "^3.2.2",
     "@hotwired/turbo-rails": "^8.0.5",
     "autoprefixer": "latest",
     "babylonjs": "^7.23.0",
     "babylonjs-loaders": "^7.23.0",
     "babylonjs-materials": "^7.23.0",
+    "cannon": "^0.6.2",
+    "cannon-es": "latest",
     "postcss": "latest",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
